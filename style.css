@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.titlee{
+    top: 130px;
+    left: 700px;
+    right: auto;
+    position: absolute;
+    font-size: 30px;
+}
+
+.one:hover{
+    background-color:darkcyan;
+    color: black;
+}
+.two:hover{
+    background-color:bisque;
+    color: black;
+}
+.three:hover{
+    background-color:blueviolet;
+    color: black;
+}
+.four:hover{
+    background-color: cadetblue;
+    color: black;
+}
+#main{
+    width: 600px;
+    height: 600px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin: auto;
+    margin-top:40px;
+}
+
+.one,.two,.three,.four{
+    background-color: aquamarine;
+    color: black;
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    margin-top: 35%;
+    margin-left: 40px;
+    align-content: center;
+    text-align: center;
+
+}
